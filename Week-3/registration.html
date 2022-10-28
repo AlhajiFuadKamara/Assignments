@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial scale=1.0">
+  <title>Registration Page</title>
+  <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+  <form action="success.html">
+    <h2>Registration Page</h2>
+    <p><b>Welcome to the registration page, kindly fill in your details below to register.</b></p>
+    <hr></hr>
+      <div class="input-box">
+        <span class="details">First Name</span>
+        <input type="text" placeholder="enter your first name" required/> 
+      </div><br>
+     <div class="input-box">
+        <span class="details">Last Name</span>
+        <input type="text" placeholder="enter your last name" required/>
+      </div><br>
+      <div class="input-box">
+        <span class="details">Email</span>
+        <input type="email" placeholder="alhajinabiejunior.anj@gmail.com" required/></div><br>
+  <div class="input-box">
+    <span class="details">Phone Number</span>
+    <input type="number" placeholder="+00000000000" required/>
+    </div><br>
+      <div class="input-box">
+        <span class="details">Date of Birth</span>
+        <input type="date" placeholder="enter your date of birth" required/>
+      </div><br>
+      <div class="input-box">
+        <span class="details">Select Favourite Colour</span>
+        <input type="color" placeholder="select color" required/>
+      </div><br>
+      <div class="input-box">
+        <label class="details">Select Gender</label>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="male">Male</label> 
+                                <input type="radio" id="female" value="female" name="gender"> <label for="female">Female</label>
+        <input type="radio" id="I prefer not to say" value="I prefer not to say" name="gender" required>
+        <label for="I prefer not to say">  I prefer not to say</label> 
+      </div>
+              <div class="button">
+                <input type="submit" value="Register"/>
+              </div>
+            </form>
+  
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+   /* font-size: 15px;*/
+}
+h2,p{
+    Font size: 15px;
+    Font-Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
+    Font-Weight: 400;
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: inherit;
+    height: 100vh;
+    padding-top: 5%;
+    padding-bottom: 5%
+    ;
+}
+.aa{
+    background-color:hsl(31, 77%, 52%) ;
+    padding: 2em;
+    width: 100%;
+}
+.aa h2{color:hsl(0, 0%, 95%);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+.aa p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-size: bold ;
+}
+
+.bb{
+    background-color:hsl(184, 100%, 22%) ;
+    padding: 2em;
+    width: 100%;
+}
+.bb h2{color:hsl(0, 0%, 95%);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+.bb p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-size: bold ;}
+    
+.cc{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 100%;
+}
+.cc h2{color:hsl(0, 0%, 95%);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+.cc p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-size: bold ;}
+
